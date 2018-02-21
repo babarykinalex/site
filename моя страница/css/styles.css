@@ -1,0 +1,31 @@
+body {
+	background: #DAE3E7 ;
+}
+.header {
+  padding: 30px 0;
+  background: #f5f5f5;
+  border-top: 10px solid #778492;
+  height:250px;
+}
+.container {
+	background: #f5f5f5; 
+	width: 1300px;
+	height: 200px;
+}
+.img_header {
+	margin-left:100px;
+	margin-top:10px;
+	width:180px;
+	height:180px;
+}
+.img_header_content {
+	width:200px;
+	height:180px;
+	position: relative; 
+	top: -190px; 
+	left: 300px;
+}
+.h2_header {
+	margin-top:-20px;
+	font-size:20px;
+}
