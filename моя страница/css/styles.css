@@ -1,5 +1,16 @@
 body {
-	background: #DAE3E7 ;
+	/*background: #DAE3E7;*/
+	background: #efefef;
+	font-family: 'Lato', arial, sans-serif;
+	color: #708090;
+	font-size: 16px;
+}
+.header {
+  padding: 30px 0;
+  background: #f5f5f5;
+  border-top: 10px solid #778492;
+  height:200px;
+  
 }
 .h1_header {
 	font-family: Gabriola, sans-serif;
@@ -8,6 +19,7 @@ body {
 	/*height:100px;*/
 	line-height:50px;
 	width:220px;
+	color:#2F4F4F;
 }
 .h2_header {
 	margin-top:-40px;
@@ -16,12 +28,6 @@ body {
 	width:220px;
 	border-top: 1px solid black; /* Линия сверху текста */
     padding: 5px; /* Поля вокруг текста */
-}
-.header {
-  padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
-  height:250px;
 }
 .container {
 	background: #f5f5f5; 
@@ -44,7 +50,7 @@ body {
 a.btn.contact_me {
 	position: relative; 
 	top: -320px;
-	left: 1150px;
+	left: 1075px;
 	width:100px;
 	height:20px;
 	background: #54ba4e;
@@ -58,3 +64,58 @@ a.btn.contact_me {
 	-khtml-border-radius:10px; /* закругл. для браузера Konquerer системы Linux */
 	border-radius: 10px; /* закругление углов для всех, кто понимает */
 }
+.container.sections-wrapper {
+	/*background: #DAE3E7; */
+	background: #efefef;
+	width: 1150px;
+	height: 4000px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.row {
+	width: 1150px;
+	height: 200px;
+}
+.primary.col {
+	width: 65%;
+	position: relative;
+	min-height: 1px;
+	float:left;
+	padding-right: 15px;
+	padding-left: 15px;
+	/*border: 1px solid #54ba4e;*/
+}
+.secondary.col {
+	width: 30%;	
+	position: relative;
+	min-height: 1px;
+	float:right;
+	padding-right: 15px;
+	padding-left: 10px;
+	margin-left: 15 px;
+	/*border: 1px solid #54ba4e;*/
+}
+.section {
+	font-size: 18px;
+	background: #f5f5f5;
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom:15px;
+	border: 2px solid #C0C0C0;
+	/*padding: 8px 16px;
+	/*-moz-border-radius: 10px; /* закругление для старых Mozilla Firefox */
+	/*-webkit-border-radius: 10px; /* закругл. для старых Chrome и Safari */
+	/*-khtml-border-radius:10px; /* закругл. для браузера Konquerer системы Linux */
+	border-radius: 5px; /* закругление углов для всех, кто понимает */
+}
+.heading {
+	color: #545e69;
+	font-size: 28px;
+	font-family: 'Imprint MT Shadow',arial, sans-serif;
+}
+
