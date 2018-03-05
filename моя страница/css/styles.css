@@ -87,6 +87,8 @@ a.btn.contact_me {
 	float:left;
 	padding-right: 15px;
 	padding-left: 15px;
+	text-align: justify;
+	
 	/*border: 1px solid #54ba4e;*/
 }
 .secondary.col {
@@ -116,6 +118,42 @@ a.btn.contact_me {
 .heading {
 	color: #545e69;
 	font-size: 28px;
+	margin-bottom:-5px;
 	font-family: 'Imprint MT Shadow',arial, sans-serif;
 }
 
+/*.table_education {
+	border-spacing: 20px 5px;
+}
+.table_working {
+	border-spacing: 20px 5px;
+}
+*/
+.table_th {
+	padding-right: 30px;
+	text-align:left;
+}
+.post {
+	font-weight:bold;
+}
+.university {
+	font-weight:bold;
+}
+.college { 
+	font-weight:bold;
+}
+.last_str {
+	padding-bottom:15px;
+}
+.name{
+	font-weight:normal;
+	font-style:normal;
+	/*text-shadow: 4px 1px 3px #999; */
+}
+.name_univesity {
+	font-weight:normal;
+	font-style:normal;
+}
+.about.section {
+	font-style:normal;
+}
