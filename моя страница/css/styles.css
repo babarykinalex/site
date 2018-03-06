@@ -129,6 +129,9 @@ a.btn.contact_me {
 	border-spacing: 20px 5px;
 }
 */
+.table_working {
+	margin-top:15px;
+}
 .table_th {
 	padding-right: 30px;
 	text-align:left;
@@ -156,4 +159,28 @@ a.btn.contact_me {
 }
 .about.section {
 	font-style:normal;
+}
+.skillset { 
+	height:220px;
+}
+.level-bar-inner {
+	position:relative;
+	top:-45px;
+	width:100%;
+}
+.level-title {
+	width:70%;
+}
+.item {
+	height:50px;
+}
+.specialist {
+	position:relative;
+	top:-45px;
+	left:70%;
+	width:30%;
+	font-size:17px;
+}
+.education.aside.section {
+	height:382px;
 }
