@@ -68,7 +68,7 @@ a.btn.contact_me {
 	/*background: #DAE3E7; */
 	background: #efefef;
 	width: 1150px;
-	height: 4000px;
+	/*height: 4000px;*/
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-top: 15px;
@@ -184,3 +184,192 @@ a.btn.contact_me {
 .education.aside.section {
 	height:382px;
 }
+
+/*media +-33
+@media screen and (min-width:1214px) and (max-width:1366px) {
+	
+	}
+	
+*/
+@media screen and (min-width:1151px) and (max-width:1250px) {	
+	
+	a.btn.contact_me {
+	left: 1000px;
+	}
+}
+@media screen and (min-width:1024px) and (max-width:1150px) {	
+	
+	a.btn.contact_me {
+	left: 850px;
+	}
+	.row {
+	width: 1000px;
+	}
+	.primary.col {
+	width:60%;
+	}
+	.secondary.col {
+	margin-left:-10px;
+	width:35%;	
+	}
+}	
+
+@media screen and (min-width:768px) and (max-width:1023px) {	
+	
+	a.btn.contact_me {
+	left: 620px;
+	}
+	.row {
+	width: 750px;
+	}
+	.primary.col {
+	width:100%;
+	}
+	.secondary.col {
+	float:left;
+	margin-left:5px;
+	width:100%;	
+	}
+}
+@media screen and (max-width:320px) {
+	.container {
+    width: 300px;
+	}
+	.img_header {
+    margin-left: 60px;
+	}
+	.img_header_content {
+	text-align:center;
+    width: 300px;
+    height: 180px;
+    position: relative;
+    top: 0px;
+    left: 40px;
+	}
+	.container.sections-wrapper {
+    margin-top: 170px;
+	}
+	a.btn.contact_me {
+	top: -30px;
+	left:85px;
+	}
+	.row {
+    width: 300px;
+	}
+	.primary.col {
+    width: 90%;
+	padding-left: 3px;
+	}
+	.section {
+    font-size: 15px;
+	}
+	.heading {
+    font-size: 20px;
+	}
+	.lerning {
+		display:none;
+	}
+	.secondary.col {
+    width: 90%;
+    position: relative;
+    min-height: 1px;
+    float: left;
+	padding-left: 3px;
+	}
+	aside.info.aside.section {
+		position: relative;
+		top:-710px;
+	}
+	section.projects.section {
+		position:relative;
+		top:205px;
+	}
+	section.experience.section {
+		position:relative;
+		top:205px;
+	}
+	aside.education.aside.section {
+		display:none;
+	}
+	aside.skills.aside.section {
+		display:none;
+	}
+}
+
+@media screen and (max-width:720px) {
+	.header {
+    height: 500px;
+	}
+	.container {
+    width: 700px;
+	}
+	.img_header {
+    margin-left: 190px;
+	width: 300px;
+	height: 300px;
+	}
+	.img_header_content {
+	text-align:center;
+    width: 300px;
+    height: 180px;
+    position: relative;
+    top: 0px;
+    left: 220px;
+	}
+	.container.sections-wrapper {
+    margin-top: 0px;
+	
+	}
+	a.btn.contact_me {
+	top: -30px;
+	left:260px;
+	}
+	.row {
+    width: 730px;
+	}
+	.primary.col {
+    width: 90%;
+	padding-left: 3px;
+	}
+	.section {
+    font-size: 15px;
+	}
+	.heading {
+    font-size: 20px;
+	}
+	.lerning {
+		display:none;
+	}
+	.secondary.col {
+    width: 90%;
+    position: relative;
+    min-height: 1px;
+    float: left;
+	padding-left: 3px;
+	}
+	aside.info.aside.section {
+		position: relative;
+		top:-490px;
+	}
+	section.projects.section {
+		position:relative;
+		top:170px;
+	}
+	section.experience.section {
+		position:relative;
+		top:165px;
+	}
+	aside.education.aside.section {
+		display:none;
+	}
+	aside.skills.aside.section {
+		display:none;
+	}
+	aside.languages.aside.section {
+		position:relative;
+		top:-20px;
+		
+	}
+}
+
+
