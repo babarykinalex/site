@@ -191,73 +191,45 @@ a.btn.contact_me {
 	}
 	
 */
-@media screen and (min-width:1151px) and (max-width:1250px) {	
-	
-	a.btn.contact_me {
-	left: 1000px;
-	}
-}
-@media screen and (min-width:1024px) and (max-width:1150px) {	
-	
-	a.btn.contact_me {
-	left: 850px;
-	}
-	.row {
-	width: 1000px;
-	}
-	.primary.col {
-	width:60%;
-	}
-	.secondary.col {
-	margin-left:-10px;
-	width:35%;	
-	}
-}	
 
-@media screen and (min-width:768px) and (max-width:1023px) {	
 	
-	a.btn.contact_me {
-	left: 620px;
-	}
-	.row {
-	width: 750px;
-	}
-	.primary.col {
-	width:100%;
-	}
-	.secondary.col {
-	float:left;
-	margin-left:5px;
-	width:100%;	
-	}
-}
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) and (max-width:400px){
 	.container {
-    width: 300px;
+    width: 320px;
 	}
 	.img_header {
-    margin-left: 60px;
+    margin-left: 70px;
 	}
 	.img_header_content {
-	text-align:center;
-    width: 300px;
+    width: 320px;
     height: 180px;
     position: relative;
     top: 0px;
-    left: 40px;
+    left: 10px;
+	}
+	.h1_header {
+		width: 320px;
+		text-align:center;
+	}
+	.h2_header {
+		width: 320px;
+		margin-top: -30px;
+		text-align:center;
 	}
 	.container.sections-wrapper {
     margin-top: 170px;
+	width:320px;
+	height:4000px;
 	}
 	a.btn.contact_me {
 	top: -30px;
 	left:85px;
 	}
 	.row {
-    width: 300px;
+    width: 320px;
 	}
 	.primary.col {
-    width: 90%;
+    width: 95%;
 	padding-left: 3px;
 	}
 	.section {
@@ -270,7 +242,7 @@ a.btn.contact_me {
 		display:none;
 	}
 	.secondary.col {
-    width: 90%;
+    width: 95%;
     position: relative;
     min-height: 1px;
     float: left;
@@ -295,8 +267,7 @@ a.btn.contact_me {
 		display:none;
 	}
 }
-
-@media screen and (max-width:720px) {
+@media screen and (min-width:720px) and (max-width:800px) {
 	.header {
     height: 500px;
 	}
@@ -371,5 +342,42 @@ a.btn.contact_me {
 		
 	}
 }
-
-
+@media screen and (min-width:768px) and (max-width:1023px) {	
+	
+	a.btn.contact_me {
+	left: 620px;
+	}
+	.row {
+	width: 750px;
+	}
+	.primary.col {
+	width:100%;
+	}
+	.secondary.col {
+	float:left;
+	margin-left:5px;
+	width:100%;	
+	}
+}
+@media screen and (min-width:1024px) and (max-width:1150px) {	
+	
+	a.btn.contact_me {
+	left: 850px;
+	}
+	.row {
+	width: 1000px;
+	}
+	.primary.col {
+	width:60%;
+	}
+	.secondary.col {
+	margin-left:-10px;
+	width:35%;	
+	}
+}
+@media screen and (min-width:1151px) and (max-width:1250px) {	
+	
+	a.btn.contact_me {
+	left: 1000px;
+	}
+}
