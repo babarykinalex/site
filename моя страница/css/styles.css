@@ -211,13 +211,16 @@ a.btn.contact_me {
     left: 10px;
 	}
 	.h1_header {
+     font-size:40px;
 		width: 300px;
 		text-align:center;
 	}
 	.h2_header {
-		width: 300px;
+		width: 220px;
 		margin-top: -30px;
 		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	.container.sections-wrapper {
     margin-top: 0px;
