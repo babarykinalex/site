@@ -195,24 +195,20 @@ a.btn.contact_me {
 	
 @media screen and (min-width:320px) and (max-width:400px){
 	.header {
-    height: 480px;
+    height: 390px;
 	}
 	.container {
     width: 300px;
 	}
 	.img_header {
-    margin-left: 25px;
-    width:260px;
-    height:260px;
+    margin-left: 70px;
 	}
 	.img_header_content {
     width: 300px;
     height: 300px;
     position: relative;
-    margin-left:auto;
-    margin-right:auto;
     top: 0px;
-    left: 0px;
+    left: 10px;
 	}
 	.h1_header {
      font-size:40px;
@@ -223,19 +219,15 @@ a.btn.contact_me {
 		width: 220px;
 		margin-top: -30px;
 		text-align:center;
-		margin-left:auto;
-		margin-right:auto;
 	}
 	.container.sections-wrapper {
     margin-top: 0px;
 	width:300px;
 	height:3750px;
-	padding-left:3px;
-	padding-right:3px;
 	}
 	a.btn.contact_me {
 	top: -145px;
-	left:85px;
+	left:95px;
 	background: #00FF00;
 	}
 	.row {
@@ -245,9 +237,6 @@ a.btn.contact_me {
     width: 95%;
 	padding-left: 3px;
 	padding-right: 3px;
-	}
-	.about_non {
-	display:none;
 	}
 	.section {
     font-size: 15px;
@@ -267,7 +256,7 @@ a.btn.contact_me {
 	}
 	aside.info.aside.section {
 		position: relative;
-		top:-750px;
+		top:-710px;
 	}
 	section.projects.section {
 		position:relative;
